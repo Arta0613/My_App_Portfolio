@@ -14,7 +14,8 @@
         android:background="@color/buttonOrange"
         android:paddingLeft="50dp"
         android:paddingRight="50dp"
-        android:text="@string/library_app"/>
+        android:text="@string/library_app"
+        android:onClick="buttonMessage"/>
 
     <Button
         android:id="@+id/buildItBigger"
@@ -26,7 +27,8 @@
         android:background="@color/buttonOrange"
         android:paddingLeft="40dp"
         android:paddingRight="40dp"
-        android:text="@string/build_it_bigger"/>
+        android:text="@string/build_it_bigger"
+        android:onClick="buttonMessage"/>
 
     <Button
         android:id="@+id/xyzReader"
@@ -38,7 +40,8 @@
         android:background="@color/buttonOrange"
         android:paddingLeft="53dp"
         android:paddingRight="53dp"
-        android:text="@string/xyz_reader"/>
+        android:text="@string/xyz_reader"
+        android:onClick="buttonMessage"/>
 
     <Button
         android:id="@+id/capstoneProject"
@@ -50,7 +53,8 @@
         android:background="@color/buttonRed"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
-        android:text="@string/capstone_my_app"/>
+        android:text="@string/capstone_my_app"
+        android:onClick="buttonMessage"/>
 
     <Button
         android:id="@+id/scoresApp"
@@ -62,7 +66,8 @@
         android:background="@color/buttonOrange"
         android:paddingLeft="52dp"
         android:paddingRight="52dp"
-        android:text="@string/scores_app"/>
+        android:text="@string/scores_app"
+        android:onClick="buttonMessage"/>
 
     <Button
         android:id="@+id/spotifyStreamer"
@@ -74,7 +79,8 @@
         android:background="@color/buttonOrange"
         android:paddingLeft="28dp"
         android:paddingRight="28dp"
-        android:text="@string/spotify_streamer"/>
+        android:text="@string/spotify_streamer"
+        android:onClick="buttonMessage"/>
 
     <TextView
         android:id="@+id/mainTitle"
