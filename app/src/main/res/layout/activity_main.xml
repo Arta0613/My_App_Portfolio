@@ -1,0 +1,88 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/libraryApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/buttonOrange"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/library_app"/>
+
+    <Button
+        android:id="@+id/buildItBigger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/libraryApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/buttonOrange"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/build_it_bigger"/>
+
+    <Button
+        android:id="@+id/xyzReader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buildItBigger"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/buttonOrange"
+        android:paddingLeft="53dp"
+        android:paddingRight="53dp"
+        android:text="@string/xyz_reader"/>
+
+    <Button
+        android:id="@+id/capstoneProject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/xyzReader"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/buttonRed"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/capstone_my_app"/>
+
+    <Button
+        android:id="@+id/scoresApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/libraryApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/buttonOrange"
+        android:paddingLeft="52dp"
+        android:paddingRight="52dp"
+        android:text="@string/scores_app"/>
+
+    <Button
+        android:id="@+id/spotifyStreamer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/scoresApp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@color/buttonOrange"
+        android:paddingLeft="28dp"
+        android:paddingRight="28dp"
+        android:text="@string/spotify_streamer"/>
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/main_screen_title"
+        android:textSize="28sp"/>
+
+</RelativeLayout>
